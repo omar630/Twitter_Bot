@@ -1,10 +1,12 @@
 import tweepy
 import time
 
-CONSUMER_KEY='rmLcfxOdZDmXduUHhCN34QvGS'
-CONSUME_SECRET='1Wv7s8nGQdh9vjZ3taVWklG1iOWQES1T0CLbZx1W5rCt3FSkAW'
-ACCESS_KEY='726434288007159809-wn6FAEf2SK839Tnb4Me0jOFxTHhkDwR'
-ACCESS_SECRET='dQJsIMWjHFaPpI1lWWVcvkyUj482PU7NjBsHxvclDUA01'
+#in below 4 variables insert your values you can get this from developer.twitter account
+
+CONSUMER_KEY=''
+CONSUME_SECRET=''
+ACCESS_KEY=''
+ACCESS_SECRET=''
 
 auth=tweepy.OAuthHandler(CONSUMER_KEY,CONSUME_SECRET)
 auth.set_access_token(ACCESS_KEY,ACCESS_SECRET)
